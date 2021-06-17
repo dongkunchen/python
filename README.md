@@ -1,3 +1,3 @@
 # python
 
-For learning, not for commercial use
+For learning No commercial
