@@ -1,16 +1,10 @@
 class Person(object):
-    def __init__(self, name, age, money):
-        self.name = name
-        self.age = age
-        self.__money = money
-
-    def setMoney(self, money):
-        self.__money = money
-    def getMoney(self):
-        return self.__money
-
-    def run(self):
-        print("run")
-
-    def eat(self, food):
-        print("eat " + food)
+    # def foodCat(self, cat):
+    #     print("給你食物")
+    #     cat.eat()
+    # def foodMouse(self, mouse):
+    #     print("給你食物")
+    #     mouse.eat()
+    def foodAnimal(self, ani):
+        print("給你食物")
+        ani.eat()
