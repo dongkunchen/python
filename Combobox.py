@@ -12,7 +12,7 @@ cv = tkinter.StringVar()
 com = ttk.Combobox(win, textvariable=cv)
 com.pack()
 #設置下拉數據
-com["value"] = ("黑龍江", "吉林", "遼寧")
+com["value"] = ("紐約", "華盛頓", "洛杉磯")
 
 #設置默認值
 com.current(0)
