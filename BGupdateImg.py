@@ -1,5 +1,7 @@
 # win鍵+r --> regedit --> HKEY_CURRENT_USER --> Control panel --> Desktop
 # 注意這是惡作劇程式別亂用會改變背景但無害~
+# Spoof program execution program will change the background
+# Don't abuse
 
 import win32api
 import win32con
