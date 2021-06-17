@@ -1,7 +1,8 @@
 #惡作劇程式請注意執行會改變背景及聲音 
-#用於惡作劇無害可加上鬼圖片跟聲音
+#用於惡搞請勿濫用
 #Spoof program, please note that running the program will change the background and automatically play music
 #But no harm to the computer
+#Don't abuse
 import time
 import pygame
 
