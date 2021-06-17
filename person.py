@@ -1,10 +1,6 @@
-class Person(object):
-    # def foodCat(self, cat):
-    #     print("給你食物")
-    #     cat.eat()
-    # def foodMouse(self, mouse):
-    #     print("給你食物")
-    #     mouse.eat()
-    def foodAnimal(self, ani):
-        print("給你食物")
-        ani.eat()
+class Person(dict):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def getAge(self):
+        return self.age
